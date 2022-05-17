@@ -22,9 +22,7 @@ export const store = new Vuex.Store({
   mutations: {},
   actions: {},
   modules: {
-    web3Storage,
-    shoppingCart,
-    frontendStorage 
+    web3Storage
   }
 
 
