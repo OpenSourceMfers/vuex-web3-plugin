@@ -1,5 +1,6 @@
 #### Vuex Web3 Plugin
 
+This plugin makes it simple to add web3 wallet support to any Vue website powered by Ethers.js 
  
 ## How to Install
 
