@@ -30,3 +30,34 @@ export const store = new Vuex.Store({
 })
 
 ```
+
+
+
+## How to use in Frontend 
+
+#### Connect to wallet 
+
+
+          await this.$store.commit('setInjectedEthereum',window.ethereum)
+          
+          await this.$store.dispatch('connect')
+
+
+
+#### Disconnect from wallet 
+
+          await this.$store.dispatch('disconnect')
+
+
+
+#### Get connected account publiic address
+        
+
+         let publicAddress = this.$store.state.web3Storage.account
+
+
+### get injected provider 
+
+        let injectedEthereum = this.$store.state.web3Storage.injectedEthereum
+
+        let provider = new ethers.providers.Web3Provider(injectedEthereum)
