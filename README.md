@@ -55,7 +55,7 @@ export const store = new Vuex.Store({
          let publicAddress = this.$store.state.web3Storage.account
 
 
-### Get injected provider to call contract methods and more 
+#### Get injected provider to call contract methods and more 
 
         let injectedEthereum = this.$store.state.web3Storage.injectedEthereum
 
