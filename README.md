@@ -1,3 +1,7 @@
+[![npm](https://img.shields.io/npm/v/github-buttons)](https://www.npmjs.com/vuex-web3-plugin)
+
+
+
 #### Vuex Web3 Plugin
 
 This plugin makes it simple to add web3 wallet support to any Vue website powered by Ethers.js 
