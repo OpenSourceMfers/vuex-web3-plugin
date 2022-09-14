@@ -64,3 +64,14 @@ export const store = new Vuex.Store({
         let injectedEthereum = this.$store.state.web3Storage.injectedEthereum
 
         let provider = new ethers.providers.Web3Provider(injectedEthereum)
+
+       const signer = provider.getSigner();
+       let myContract = new Contract( 
+         contractAddress ,
+         contractABI,
+         signer
+       )
+       
+       await myContract.foo()
+
+
